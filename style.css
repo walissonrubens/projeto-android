@@ -75,7 +75,6 @@ header p{
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    max-width: 600px;
     margin: auto;
     padding-bottom: 30px;
     text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.555);
@@ -103,7 +102,7 @@ nav a:hover{
 
 main{
     min-width: 280px;
-    max-width: 600px;
+    max-width: 800px;
     background-color: white;
     margin: auto;
     margin-bottom: 30px;
@@ -156,6 +155,24 @@ main img#pequena{
     max-width: 350px;
     display: block;
     margin: auto;
+}
+
+#video{
+    background-color: var(--cor5);
+    padding: 15px;
+    padding-bottom: 54%;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+}
+
+div#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 aside{
