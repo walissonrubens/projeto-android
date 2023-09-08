@@ -53,6 +53,7 @@ body{
 }
 
 header{
+    margin: auto;
     background-color: var(--cor4);
     min-height: 150px;
     text-align: center;
@@ -183,6 +184,7 @@ aside h2{
 }
 
 footer{
+    margin: auto;
     background-color: var(--cor5);
     color: white;
     text-align: center;
